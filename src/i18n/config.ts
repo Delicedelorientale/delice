@@ -26,7 +26,7 @@ const resources = {
       contact: {
         title: "Contactez-nous",
         address: "Adresse",
-        addressLine: "123 Rue de la Pâtisserie, Paris",
+        addressLine: "59 rue des escalopes marinée , Lille",
         phone: "Téléphone",
         whatsapp: "Contacter sur WhatsApp"
       },

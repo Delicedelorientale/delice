@@ -7,7 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-
+import logo from '@/assets/Logo.png';
 const Header = () => {
   const { t, i18n } = useTranslation();
 
@@ -28,12 +28,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-gold-dark rounded-full flex items-center justify-center">
-              <span className="text-2xl">🥐</span>
-            </div>
-            <h1 className="text-2xl font-display font-bold text-gradient-gold">
-              Délice de l'Orientale
-            </h1>
+            
+            <header className="flex items-center">
+      <img src={logo} alt="Délice de l'Orientale" className="h-16 w-auto" />
+    </header>
           </div>
 
           {/* Navigation Desktop */}
