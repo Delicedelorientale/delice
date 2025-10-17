@@ -83,7 +83,7 @@ const Header = () => {
                   🇪🇸 Español
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLanguage('ar')}>
-                  🇸🇦 العربية
+                  🇩🇿 العربية
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
