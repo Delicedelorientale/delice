@@ -1,3 +1,15 @@
+import plateau20 from '@/assets/plateau-20.jpg';
+import plateau30 from '@/assets/plateau-30.jpg';
+import plateau50 from '@/assets/plateau-50.jpg';
+import makrout from '@/assets/makrout.jpg';
+import baklawa from '@/assets/baklawa.jpg';
+import cornesGazelle from '@/assets/cornes-gazelle.jpg';
+import ghriba from '@/assets/ghriba.jpg';
+import mhajeb from '@/assets/mhajeb.jpg';
+import tajine from '@/assets/tajine.jpg';
+import couscous from '@/assets/couscous.jpg';
+import chorba from '@/assets/chorba.jpg';
+
 export interface Product {
   id: string;
   name: string;
@@ -17,7 +29,7 @@ export const products: Product[] = [
     price: '15 €',
     category: 'cakes',
     subCategory: 'sweet',
-    image: '/placeholder.svg'
+    image: plateau20
   },
   {
     id: '2',
@@ -26,7 +38,7 @@ export const products: Product[] = [
     price: '22 €',
     category: 'cakes',
     subCategory: 'sweet',
-    image: '/placeholder.svg'
+    image: plateau30
   },
   {
     id: '3',
@@ -35,7 +47,7 @@ export const products: Product[] = [
     price: '35 €',
     category: 'cakes',
     subCategory: 'sweet',
-    image: '/placeholder.svg'
+    image: plateau50
   },
   // Pâtisseries individuelles
   {
@@ -45,7 +57,7 @@ export const products: Product[] = [
     price: '2 €/pièce',
     category: 'cakes',
     subCategory: 'sweet',
-    image: '/placeholder.svg'
+    image: makrout
   },
   {
     id: '5',
@@ -54,7 +66,7 @@ export const products: Product[] = [
     price: '2.5 €/pièce',
     category: 'cakes',
     subCategory: 'sweet',
-    image: '/placeholder.svg'
+    image: baklawa
   },
   {
     id: '6',
@@ -63,7 +75,7 @@ export const products: Product[] = [
     price: '2.5 €/pièce',
     category: 'cakes',
     subCategory: 'sweet',
-    image: '/placeholder.svg'
+    image: cornesGazelle
   },
   {
     id: '7',
@@ -72,7 +84,7 @@ export const products: Product[] = [
     price: '1.5 €/pièce',
     category: 'cakes',
     subCategory: 'sweet',
-    image: '/placeholder.svg'
+    image: ghriba
   },
   {
     id: '8',
@@ -81,7 +93,7 @@ export const products: Product[] = [
     price: '3 €/pièce',
     category: 'cakes',
     subCategory: 'savory',
-    image: '/placeholder.svg'
+    image: mhajeb
   },
   // Plats
   {
@@ -90,7 +102,7 @@ export const products: Product[] = [
     content: 'Poulet mijoté aux olives et citron confit',
     price: '18 €',
     category: 'dishes',
-    image: '/placeholder.svg'
+    image: tajine
   },
   {
     id: '10',
@@ -98,7 +110,7 @@ export const products: Product[] = [
     content: 'Couscous avec viandes et légumes',
     price: '22 €',
     category: 'dishes',
-    image: '/placeholder.svg'
+    image: couscous
   },
   {
     id: '11',
@@ -106,6 +118,6 @@ export const products: Product[] = [
     content: 'Soupe traditionnelle orientale',
     price: '8 €',
     category: 'dishes',
-    image: '/placeholder.svg'
+    image: chorba
   }
 ];
