@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-display font-bold text-gradient-gold mb-4">
+            <h2 className="text-4xl leading-[3.5rem] md:text-5xl font-display font-bold text-gradient-gold mb-4">
               {t('contact.title')}
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full" />

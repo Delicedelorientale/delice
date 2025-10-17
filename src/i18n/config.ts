@@ -6,19 +6,19 @@ const resources = {
     translation: {
       nav: {
         home: "Accueil",
-        products: "Nos plats",
+        products: "Nos gourmandises",
         contact: "Contact"
       },
       hero: {
         title: "Délice de l'Orientale",
-        subtitle: "Pâtisseries Orientales Artisanales",
-        description: "Découvrez nos délicieuses créations faites avec passion et savoir-faire traditionnel",
-        cta: "Voir nos plats"
+        subtitle: "Pâtisseries & Délices Orientaux",
+        description: "Découvrez nos créations gourmandes faites avec passion et savoir-faire traditionnel",
+        cta: "Voir nos gourmandises"
       },
       filters: {
         all: "Tous",
-        cakes: "Gâteaux",
-        dishes: "Plats",
+        cakes: "Gâteaux & Douceurs",
+        dishes: "Délices salés",
         sweet: "Sucré",
         savory: "Salé",
         search: "Rechercher un produit..."
@@ -26,7 +26,7 @@ const resources = {
       contact: {
         title: "Contactez-nous",
         address: "Adresse",
-        addressLine: "59 rue des escalopes marinée , Lille",
+        addressLine: "59 rue des escalopes marinée, Lille",
         phone: "Téléphone",
         whatsapp: "Contacter sur WhatsApp"
       },
@@ -40,19 +40,19 @@ const resources = {
     translation: {
       nav: {
         home: "Inicio",
-        products: "Nuestros platos",
+        products: "Nuestras delicias",
         contact: "Contacto"
       },
       hero: {
         title: "Délice de l'Orientale",
-        subtitle: "Repostería Oriental Artesanal",
-        description: "Descubra nuestras deliciosas creaciones hechas con pasión y saber hacer tradicional",
-        cta: "Ver nuestros platos"
+        subtitle: "Repostería & Delicias Orientales",
+        description: "Descubra nuestras creaciones gourmet hechas con pasión y saber hacer tradicional",
+        cta: "Ver nuestras delicias"
       },
       filters: {
         all: "Todos",
-        cakes: "Pasteles",
-        dishes: "Platos",
+        cakes: "Pasteles & Dulces",
+        dishes: "Delicias saladas",
         sweet: "Dulce",
         savory: "Salado",
         search: "Buscar un producto..."
@@ -74,19 +74,19 @@ const resources = {
     translation: {
       nav: {
         home: "الرئيسية",
-        products: "أطباقنا",
+        products: "حلوياتنا",
         contact: "اتصل بنا"
       },
       hero: {
         title: "لذة الشرقية",
-        subtitle: "حلويات شرقية حرفية",
+        subtitle: "حلويات و أطباق شرقية",
         description: "اكتشف إبداعاتنا اللذيذة المصنوعة بشغف وخبرة تقليدية",
-        cta: "شاهد أطباقنا"
+        cta: "شاهد حلوياتنا"
       },
       filters: {
         all: "الكل",
-        cakes: "الحلويات",
-        dishes: "الأطباق",
+        cakes: "الحلويات و السكريات",
+        dishes: "الأطباق المالحة",
         sweet: "حلو",
         savory: "مالح",
         search: "ابحث عن منتج..."
